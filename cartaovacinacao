@@ -1,0 +1,13 @@
+pragma solidity 0.8.9;
+
+contract CartaoDeVacinacao {
+    //autor: Nuno
+    
+    string constant public nome = "Nuno";
+    string public UBS = "MAX PERLMAN";
+    uint CNES = 801802803;
+    uint public data = 20210707;
+    uint constant lote = 101001000;
+    string constant fabricante = "PFIZER";
+    string public vacinador = "Tiburcio";
+}
